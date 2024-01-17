@@ -1,0 +1,111 @@
+/* sections.css */
+
+/* PRESENTATION */
+.title {
+    font-size: 5vw;
+}
+
+.subtitle {
+    font-size: 3vw;
+    /* font-weight: 100; */
+}
+
+.humans {
+    margin-top: 180px;
+    padding-bottom: 80px;
+}
+
+#humanSvg {
+    /* height: 20vh; */
+    height: 100px;
+    fill: orange;
+}
+
+/* GRAPHICS */
+.graphics-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comidaSvg {
+    height: 120px;
+    width: 120px;
+}
+
+.amarillo {
+    fill: #FFC966;
+}
+
+.verde {
+    fill: #66CC66;
+}
+
+.verdeOscuro {
+    fill: #4E8900;
+}
+
+.rojo {
+    fill: #D45D5D;
+}
+
+.marron {
+    fill: #8B4513;
+}
+
+.azulClaro {
+    fill: #6CC3E0;
+}
+
+.azulOscuro {
+    fill: #0055CC;
+}
+
+.circulo {
+    width: 15px;
+    /* height: 0; */
+    float: left;
+}
+
+.textRightLegend {
+    margin-left: 10px;
+}
+
+
+/* FOOD */
+.foodSectionRow { /* BORRAR */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.leftSpace {
+    --tamanio-circulo: 15vw;
+    width: var(--tamanio-circulo);
+    height: var(--tamanio-circulo);
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.bottomSeparation {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* TEST */
+.container {
+    overflow: hidden;
+}
+
+.circle {
+    width: 40px;
+    height: 0;
+    float: left;
+}
+
+.textRight {
+    /* float: right; */
+    /* background-color: red; */
+    margin-left: 60px;
+}
